@@ -1,2 +1,7 @@
 A universal two class classifier created using of BrainJS.
-
+The web page has a canvas on which the user can draw any object.
+After that, the user must press the "V" key and a pop-up window will appear asking whether the drawn object belongs to a specific class. 
+When you click OK or Cancel, the machine assigns the object to one or another class. 
+Then the machine converts the resulting pattern into a 25 by 25 matrix, where 1 are fully or partially filled cells. 
+Based on the learned drawings, the machine is capable of correlating the drawn object with one or another class when pressing the "B" button. 
+When you press the "C" button, the canvas is cleared
